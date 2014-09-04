@@ -1,3 +1,52 @@
+html {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 h1, h2 {
-	color: rgba(165, 35, 67, 1);
+	color: rgba(165,35,67,1);
+}
+
+img {
+	width: 100%;
+}
+
+figcaption {
+	font-size: 1.25rem;
+	color: rgba(81,81,81,1);
+}
+
+dl {
+	overflow: hidden;
+}
+
+dd {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+dt {
+	float: left;
+	clear: left;
+	width: 8em;
+}
+
+blockquote {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-bottom: 3em;
+}
+
+cite {
+	float: right;
+	color: rgba(81,81,81,1);
+}
+
+.tags a {
+	color: rgba(165,35,67,1);
+	text-decoration: none;
+	border: solid rgba(165,35,67,1);
+	border-radius: 40px;
+	padding: .5em;
+	background-color: rgba(249,149,170,1);
+	line-height: 3em;
 }
